@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#logo {
+    width: 55px;
+    height: 55px;
+}
+
+nav a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+    margin-left: 35px;
+    transition: color 0.15s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #F8B400;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    background: #1A1E27;
+}
+
+#content-beranda {
+    max-width: 600px;
+}
+
+#content-beranda h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+}
+
+#content-beranda h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #F8B400;
+}
+
+#content-beranda p {
+    color: white;
+}
+
+#my-picture img {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    object-fit:cover;
+    border-radius: 500px;
+    margin-left: 190px;
+    box-shadow: 0 0 15px #F8B400;
+}
+
+#portfolio {
+    height: 115vh;
+}
+
+#prestasi {
+    height: 165vh;
+}
+
+#title-text {
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card {
+    transition: box-shadow 0.15s;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 5px #F8B400;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+#title-contact h1 {
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.text-decor {
+    color: #F8B400;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icon-contact {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#icon-contact a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #F8B400;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #F8B400;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
